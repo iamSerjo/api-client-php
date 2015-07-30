@@ -24,5 +24,6 @@
             "Post2GoClient\\": "src/",
             "Post2GoClient\\Tests\\": "tests/"
         }
-    }
+    },
+    "minimum-stability": "stable"
 }
