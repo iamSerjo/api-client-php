@@ -23,7 +23,10 @@ $post2goClient->tracking()->get($courier, $trackingNumber);
 $post2goClient->tracking()->reactivate($courier, $trackingNumber);
 
 //get last checkpoint info
-$post2goClient->lastCheckpoint($courier, $trackingNumber);
+$lastOne = $post2goClient->lastCheckpoint($courier, $trackingNumber);
+
+//get a russian location
+$lastOne->getLocationRu();
 ```
 
 See [examples](https://github.com/post2go/api-client-php/tree/master/examples) for more info 
@@ -36,7 +39,7 @@ The recommended way to install is through [Composer](http://getcomposer.org).
 curl -sS https://getcomposer.org/installer | php
 
 # Add as a dependency
-php composer.phar require post2go/post2go-client:dev-master
+php composer.phar require iamserjo/post2go-client:dev-master
 ```
 
 After installing, you need to require Composer's autoloader:
