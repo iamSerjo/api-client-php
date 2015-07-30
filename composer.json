@@ -1,15 +1,7 @@
 {
-    "repositories": [
-        {
-            "url": "https://github.com/iamSerjo/post2go-client.git",
-            "type": "git"
-        }
-    ],
-    "minimum-stability": "dev",
-    "name": "iamserjo/post2go-client",
+    "name": "iamSerjo/post2go-client",
     "keywords": ["track", "post2go", "shipping", "tracking"],
-    "description": "Post2Go API client.",
-    "homepage": "http://post2go.ru/",
+    "description": "Post2Go API client. Russian location",
     "license": "BSD-3-Clause",
     "version": "1.0.7",
     "require" : {
@@ -25,5 +17,4 @@
             "Post2GoClient\\Tests\\": "tests/"
         }
     },
-    "minimum-stability": "stable"
 }
