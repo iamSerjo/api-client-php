@@ -1,4 +1,10 @@
 {
+    "repositories": [
+        {
+            "url": "https://github.com/iamSerjo/post2go-client.git",
+            "type": "git"
+        }
+    ],
     "minimum-stability": "dev",
     "name": "iamserjo/post2go-client",
     "keywords": ["track", "post2go", "shipping", "tracking"],
