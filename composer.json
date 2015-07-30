@@ -1,5 +1,6 @@
 {
-    "name": "post2go/post2go-client",
+    "minimum-stability": "dev",
+    "name": "iamserjo/post2go-client",
     "keywords": ["track", "post2go", "shipping", "tracking"],
     "description": "Post2Go API client.",
     "homepage": "http://post2go.ru/",

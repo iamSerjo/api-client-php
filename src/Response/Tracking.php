@@ -42,6 +42,7 @@ class Tracking
                 $checkpoint['time'],
                 $checkpoint['status'],
                 $checkpoint['location'],
+                $checkpoint['location_ru'],
                 $checkpoint['zip_code'],
                 $checkpoint['country_code'],
                 $checkpoint['courier_slug'],

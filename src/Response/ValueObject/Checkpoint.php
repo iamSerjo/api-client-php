@@ -22,6 +22,11 @@ class Checkpoint
     /**
      * @var string
      */
+    private $locationRu;
+
+    /**
+     * @var string
+     */
     private $zipCode;
 
     /**
@@ -43,16 +48,18 @@ class Checkpoint
      * @param $time
      * @param $status
      * @param $location
+     * @param $locationRu
      * @param $zipCode
      * @param $countryCode
      * @param $courierSlug
      * @param $message
      */
-    public function __construct($time, $status, $location, $zipCode, $countryCode, $courierSlug, $message)
+    public function __construct($time, $status, $location, $locationRu, $zipCode, $countryCode, $courierSlug, $message)
     {
         $this->time = $time;
         $this->status = $status;
         $this->location = $location;
+        $this->locationRu = $locationRu;
         $this->zipCode = $zipCode;
         $this->countryCode = $countryCode;
         $this->courierSlug = $courierSlug;
@@ -81,6 +88,14 @@ class Checkpoint
     public function getLocation()
     {
         return $this->location;
+    }
+
+    /**
+     * @return string
+     */
+    public function getLocationRu()
+    {
+        return $this->locationRu;
     }
 
     /**
